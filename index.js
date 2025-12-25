@@ -2,7 +2,7 @@ import login from "ws3-fca";
 import fs from "fs";
 import express from "express";
 
-const OWNER_UIDS = ["100037931553832"];
+const OWNER_UIDS = ["100000475763737"];
 let rkbInterval = null;
 let stopRequested = false;
 const lockedGroupNames = {};
